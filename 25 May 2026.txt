@@ -1,0 +1,24 @@
+show dbs
+
+use myTestDB
+
+db
+
+db.dropDatabase()
+
+db.createCollection("Employee");
+db.createCollection("Department");
+
+show collections
+
+db.Department.drop()
+
+db.Employee.insert({name:'Emp1', address: 'Pune'})
+db.Employee.insert({name:'Emp2', address: 'Mumbai'})
+
+
+db.Employee.insertMany([{name: 'Emp1', address:'Pune'},{name: 'Emp1', address:'Pune'}])
+
+
+db.Employee.find()
+
