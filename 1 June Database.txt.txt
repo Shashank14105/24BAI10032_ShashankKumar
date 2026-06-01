@@ -1,0 +1,9 @@
+show databases;
+
+create database test;
+use test;
+create table student(sid int unique not null, sname varchar(30) not null,smarks int not  null);
+
+desc student;
+insert into student values(105,'Archi',92);
+select * from student;
