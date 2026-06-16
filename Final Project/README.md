@@ -1,12 +1,12 @@
 # RoomSync - Hotel Reservation & Management System
 
-## Project Overview
+## My Project Overview
 
 RoomSync is a backend-based Hotel Reservation & Management System developed using Spring Boot and MongoDB. The project focuses on managing hotel rooms, customers, and bookings through REST APIs while demonstrating CRUD operations, entity relationships, business logic, and exception handling.
 
 ---
 
-## Project Structure
+## My Project Structure
 
 ```text
 com.roomsync
