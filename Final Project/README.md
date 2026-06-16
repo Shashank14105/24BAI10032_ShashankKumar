@@ -70,7 +70,7 @@ Booking
 
 ---
 
-## Room Proper Flow
+## Room Status Proper Flow
 
 ```text
 Customer
@@ -88,26 +88,6 @@ Room becomes OCCUPIED
 Customer Check-Out
     ↓
 Room becomes AVAILABLE
-```
-
----
-
-## Room Status Proper Flow
-
-```text
-AVAILABLE
-    ↓
-Create Booking
-    ↓
-BOOKED
-    ↓
-Check In
-    ↓
-OCCUPIED
-    ↓
-Check Out
-    ↓
-AVAILABLE
 ```
 
 ---
