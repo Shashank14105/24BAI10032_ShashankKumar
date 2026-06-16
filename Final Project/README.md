@@ -70,7 +70,7 @@ Booking
 
 ---
 
-## Business Proper Flow
+## Room Proper Flow
 
 ```text
 Customer
@@ -111,18 +111,6 @@ AVAILABLE
 ```
 
 ---
-
-## Booking Status Proper Flow
-
-```text
-CREATE BOOKING
-      ↓
-CONFIRMED
-      ↓
-CHECKED_IN
-      ↓
-CHECKED_OUT
-```
 
 ### Invalid State Changes
 
