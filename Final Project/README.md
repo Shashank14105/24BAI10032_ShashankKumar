@@ -42,7 +42,7 @@ com.roomsync
 
 ---
 
-## Entities Given
+## Entities I have Assigned
 
 ### Room
 
